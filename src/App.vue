@@ -4,8 +4,8 @@ import Cika from "./assets/cika.jpg";
 
 <template>
   <h1>Racoon's Home</h1>
-  <img :src="Cika" />
   <div>sth</div>
+  <img :src="Cika" />
 </template>
 
 <style scoped></style>
