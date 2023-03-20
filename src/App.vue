@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import Cika from "./assets/cika.jpg";
+</script>
 
 <template>
   <h1>Racoon's Home</h1>
-  <img src="./assets/cika.jpg" />
+  <img :src="Cika" />
   <div>sth</div>
 </template>
 
